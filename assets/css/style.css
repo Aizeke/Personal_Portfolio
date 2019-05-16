@@ -1,27 +1,65 @@
+body {
+    background-image: url("../images/white-waves.png");
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
+
 .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     background: whitesmoke;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .header a {
     float: left;
-    color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 25px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif; 
     line-height: 25px;
     border-radius: 4px;
 }
 
 .logo {
     background: #4aaaa4;
-    float: left;
+    margin-left: 40%;
+    color: white;
 
 }
 
 .about {
+    margin-left: 20%;
+}
 
+.content {
+
+}
+
+.portfolio {
+
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa4;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 0px;
+    padding-top: 18px;
+    height: 25px;
 }
